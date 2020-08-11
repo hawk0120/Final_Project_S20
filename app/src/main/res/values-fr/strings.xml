@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalGroupProject</string>
+
+    <string name="BBC_version_number">Le numéro de version est enregistré</string>
+    <string name="EditText1">Écrivez ici</string>
+    <string name="TextView1">Version:</string>
+    <string name="OnPause">En pause est appelé</string>
+
+    <string name="BBC_Title">nouvelles de la BBC</string>
+    <string name="GoToBBC">nouvelles de la BBC</string>
+    <string name="BBC_ButtonClick">Le bouton est cliquéd</string>
+    <string name="BBC_CheckBox">souscrire</string>
+    <string name="BBC_CheckBoxYes">abonné</string>
+    <string name="BBC_CheckBoxNo">désabonné</string>
+    <string name="BBC_Statement1">"Cliquez sur l'icône BBC News,"</string>
+
+    <string name="BBC_AlertDialogTitle">"Voulez-vous l'enregistrer dans vos favoris?"</string>
+    <string name="BBC_AlertDialogTitle2">"Voulez-vous supprimer cette actualité des favoris?"</string>
+    <string name="BBC_rowNum">La ligne sélectionnée est:</string>
+    <string name="BBC_databaseId">"L'ID de la base de données est:"</string>
+    <string name="BBC_Favourite_NegativeButton">Annuler</string>
+    <string name="BBC_Favourite_PositiveButton">Confirmé</string>
+
+    <string name="BBC_GoToFavourite">Aller aux favoris</string>
+
+    <string name="BBC_FragmentTitle">Titre: </string>
+    <string name="BBC_FragmentDescription">La description:</string>
+    <string name="BBC_FragmentLink">Lien: </string>
+    <string name="BBC_FragmentDate">Date: </string>
+
+    <string name="BBC_Toolbar_Option">Vous avez cliqué sur:</string>
+    <string name="BBC_Favourite">Liste des favoris de la BBC</string>
+    <string name="BBC_News">nouvelles de la BBC</string>
+
+    <string name="BBC_help">Aidez-moi</string>
+    <string name="BBC_Help_NegativeButton">proche</string>
+    <string name="BBC_Help_PositiveButton">"D'accord"</string>
+    <string name="BBC_AlertDialogTitle3">"Message d'aide"</string>
+    <string name="BBC_HelpMes1">"1. Vous pouvez accéder à différentes activités en sélectionnant une icône graphique dans une barre d'outils et NavigationDrawer."</string>
+    <string name="BBC_HelpMes2">"2. En utilisant la case à cocher sur la page principale, vous pouvez accéder directement à la page principale de la BBC ou à la liste des favoris."</string>
+    <string name="BBC_HelpMes3">"3. En cliquant sur le titre des actualités de la BBC, vous pouvez accéder aux détails des actualités."</string>
+    <string name="BBC_HelpMes4">"4. En cliquant longuement sur le titre des nouvelles de la BBC, vous pouvez ajouter les nouvelles à votre liste de favoris."</string>
+    <string name="BBC_HelpMes5">"5. Après avoir accédé à la liste des favoris en utilisant le bouton Favoris, vous pouvez supprimer les actualités de votre liste de favoris en cliquant longuement sur le titre des actualités."</string>
+
+
+    <string name="BBC_open">Ouverte</string>
+    <string name="BBC_close">proche</string>
+</resources>
