@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BBC.BbcActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"/>
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/newsListView"
+            android:layout_width="300dp"
+            android:layout_height="600dp" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_toRightOf="@+id/newsListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_below="@+id/newsListView"
+            android:layout_alignParentStart="true"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:rowCount="1"
+            android:columnCount="5"
+
+            android:layout_gravity="fill">
+
+
+            <ProgressBar android:id="@+id/bbcProgressBar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:visibility="invisible"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:textSize="24dp"
+                android:text="weather" />
+
+        </GridLayout>
+
+        <Button android:id="@+id/GoToFavourite"
+            android:layout_below="@+id/gridLayout"
+            android:layout_alignParentStart="true"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/BBC_GoToFavourite" />
+
+    </RelativeLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/header_layout"
+            app:menu="@menu/menu4"
+            android:id="@+id/nav_view"/>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>

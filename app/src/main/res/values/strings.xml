@@ -1,3 +1,48 @@
 <resources>
-    <string name="app_name">Final_Project_S20</string>
+    <string name="app_name">FinalGroupProject</string>
+
+    <string name="BBC_version_number">Version number is saved</string>
+    <string name="EditText1">Type here</string>
+    <string name="TextView1">Version:</string>
+    <string name="OnPause">On Pause is called</string>
+
+    <string name="BBC_Title">BBC News</string>
+    <string name="GoToBBC">BBC News</string>
+    <string name="BBC_ButtonClick">Button is clicked</string>
+    <string name="BBC_CheckBox">SUBSCRIBE</string>
+    <string name="BBC_CheckBoxYes">SUBSCRIBED</string>
+    <string name="BBC_CheckBoxNo">UNSUBSCRIBED</string>
+    <string name="BBC_Statement1">Click the BBC News icon,</string>
+
+    <string name="BBC_AlertDialogTitle">Do you want to save it to favourite?</string>
+    <string name="BBC_AlertDialogTitle2">Do you want to delete this news from favourite?</string>
+    <string name="BBC_rowNum">The selected row is:</string>
+    <string name="BBC_databaseId">The database id is:</string>
+    <string name="BBC_Favourite_NegativeButton">Cancel</string>
+    <string name="BBC_Favourite_PositiveButton">Confirmed</string>
+
+    <string name="BBC_GoToFavourite">Go To Favourite</string>
+
+    <string name="BBC_FragmentTitle">Title: </string>
+    <string name="BBC_FragmentDescription">Description: </string>
+    <string name="BBC_FragmentLink">Link: </string>
+    <string name="BBC_FragmentDate">Date: </string>
+
+    <string name="BBC_Toolbar_Option">You clicked on</string>
+    <string name="BBC_Favourite">BBC Favourite List</string>
+    <string name="BBC_News">BBC News</string>
+
+    <string name="BBC_help">Help</string>
+    <string name="BBC_Help_NegativeButton">Close</string>
+    <string name="BBC_Help_PositiveButton">OK</string>
+    <string name="BBC_AlertDialogTitle3">Help Message</string>
+    <string name="BBC_HelpMes1">1. You can access different activities by selecting a graphical icon from a Toolbar, and NavigationDrawer.</string>
+    <string name="BBC_HelpMes2">2. By using the checkbox at main page, you can go to BBC main page or favourite list directly.</string>
+    <string name="BBC_HelpMes3">3. By clicking the BBC news title, you can access the details of the news.</string>
+    <string name="BBC_HelpMes4">4. By long clicking the BBC news title, you can add the news to your favourite list.</string>
+    <string name="BBC_HelpMes5">5. After you go to the favourite list by using Favourite button, you can remove the news to your favourite list by long clicking the news title.</string>
+
+
+    <string name="BBC_open">Open</string>
+    <string name="BBC_close">Close</string>
 </resources>

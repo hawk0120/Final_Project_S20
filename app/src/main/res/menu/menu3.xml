@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/bbc_fav_pic"
+        android:title="@string/BBC_Favourite"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:orderInCategory="25"
+        app:showAsAction="always"/>  <!-- This uses showAsAction=always, so look at icon= parameter -->
+
+
+    <item android:id="@+id/bbc_help"
+        android:title="@string/BBC_help"
+        app:showAsAction="never"
+        android:orderInCategory="400"/>
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BBC.DetailsFragment"
+    android:id="@+id/frameLayout">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/FragmentTitle"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BBC_FragmentTitle" />
+
+        <TextView
+            android:id="@+id/FragmentDescription"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/FragmentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BBC_FragmentDescription" />
+
+        <TextView
+            android:id="@+id/FragmentLink"
+            android:autoLink="all"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/FragmentDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BBC_FragmentLink" />
+
+        <TextView
+            android:id="@+id/FragmentDate"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/FragmentLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BBC_FragmentDate" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/BBC_close"
+            android:id="@+id/hideButton"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
